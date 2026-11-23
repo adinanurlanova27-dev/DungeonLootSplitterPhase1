@@ -5,8 +5,8 @@
 
 body {
     line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #222222;
+    background-color: #eef5f0;
+    color: #1b2a22;
     max-width: 960px;
     margin: 2rem auto;
     padding: 0 1rem;
@@ -20,7 +20,7 @@ header {
 }
 
 h1, h2 {
-    color: #1a1a2e;
+    color: #13532d;
     margin-top: 0;
 }
 
@@ -39,7 +39,7 @@ main {
 .panel {
     background-color: #ffffff;
     padding: 1.5rem;
-    border: 1px solid #cccccc;
+    border: 1px solid #b7cfc0;
     border-radius: 6px;
 }
 
@@ -63,7 +63,7 @@ input {
 }
 
 button {
-    background-color: #1a1a2e;
+    background-color: #166534;
     color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
@@ -73,7 +73,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button: hover {
     background-color: #2e2e52;
 }
 
