@@ -74,13 +74,13 @@
         <section class="panel reflection" aria-labelledby="logic-heading">
             <h2 id="logic-heading">Logic Explanation</h2>
             <p>
-                <strong>How the Loot Array Works:</strong> At the top of <code>js/script.js</code>, I keep a <code>lootInventory</code> array in memory while the page is open. Each valid item is stored as an object with <code>name</code> and <code>value</code> properties so every part of the app reads from the same list.
+                <strong>How the Loot Array Works:</strong> At the top of <code>js/script.js</code>, I keep a <code>lootInventory</code> array in memory while the page is open. Each valid item is stored as an object with <code>name</code> and <code>value</code> properties so every part of the application reads from the same list.
             </p>
             <p>
                 <strong>Where Loops Are Used:</strong> Inside <code>addLoot()</code>, a <code>for</code> loop checks for duplicate item names and nested <code>for</code> loops sort items from highest to lowest value. Inside <code>renderLoot()</code>, a <code>for</code> loop builds each list item in the DOM, and inside <code>calculateTotalLoot()</code>, a <code>for</code> loop adds up every item's value.
             </p>
             <p>
-                <strong>How <code>if</code> Statements Make Decisions:</strong> Conditional <code>if</code> statements validate user input before changing state or dividing loot. In <code>addLoot()</code>, <code>if</code> checks reject blank names, duplicate names, empty/non-numeric amounts, and negative numbers. In <code>splitLoot()</code>, <code>if</code> checks verify that the party size is a whole number of at least 1 and that loot items exist before calculating each member's share.
+                <strong>How <code>if</code> Statements Make Decisions:</strong> Conditional <code>if</code> statements validate user input before changing state or dividing loot. In <code>addLoot()</code>, <code>if</code> checks reject blank names, duplicate names, empty, non-numeric amounts, and negative numbers. In <code>splitLoot()</code>, <code>if</code> checks verify that the party size is a whole number of at least 1 and that loot items exist before calculating each member's share.
             </p>
         </section>
     </main>
